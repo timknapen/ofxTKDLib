@@ -6,13 +6,13 @@ Add `libdlib.a`
 
 #### Build Settings > Library Search Paths
 Add the directory containing `libdlib.a`, 
-Like this: `../../../addons/ofxDLib/dlib/examples/build/dlib_build`
+Like this: `../../../addons/ofxDLib/dlib/lib`
 
 #### Build Settings > Other Linker Flags
-Add `libdlib.a`, like this `../../../addons/ofxDLib/dlib/examples/build/dlib_build/libdlib.a`
+Add `../../../addons/ofxDLib/dlib/lib/libdlib.a`
 
 #### Build Settings > OTHER_LDFLAGS
-add ../../../addons/ofxDLib/dlib/examples/build/dlib_build/libdlib.a
+add `../../../addons/ofxDLib/dlib/lib/libdlib.a`
 
 #### Project Navigator
 Add `/dlib/all.source.cpp` to the project (so it compiles with target)
